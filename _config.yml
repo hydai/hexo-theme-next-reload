@@ -478,8 +478,8 @@ pangu: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: hydai
   count: true
   lazyload: false
 
@@ -594,7 +594,7 @@ google_analytics: UA-78643171-1
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable:       true
+  enable:       false
   app_id:       245025255866974
   fb_admin:     100000331794104
   like_button:  true
@@ -604,7 +604,7 @@ facebook_sdk:
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable:       true
+  enable:       false
   num_of_posts: 10    # min posts num is 1
   width:        100%  # default width is 550px
   scheme:       light # default scheme is light (light or dark)
