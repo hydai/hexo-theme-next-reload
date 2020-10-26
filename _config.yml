@@ -97,9 +97,9 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 #scheme: Gemini
 
 # Dark Mode
@@ -177,10 +177,10 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  GitHub: https://github.com/hydai || github
-  E-Mail: mailto:z54981220@gmail.com || envelope
-  Twitter: https://twitter.com/hydai_tw || twitter
-  FB Page: https://www.facebook.com/hungyingdai || facebook
+  GitHub: https://github.com/hydai || fab fa-github
+  E-Mail: mailto:hydai@hyd.ai || fa fa-envelope
+  Twitter: https://twitter.com/hydai_tw || fab fa-twitter
+  FB Page: https://www.facebook.com/hungyingdai || fab fa-facebook
   YouTube: https://www.youtube.com/channel/UCL96VcILiOIp4PAYIPzotoQ || fab fa-youtube
 
 social_icons:
@@ -196,7 +196,7 @@ links_settings:
   layout: block
 
 links:
-  Title: https://hyd.ai
+  #Title: https://hyd.ai
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -248,16 +248,6 @@ symbols_count_time:
   separated_meta: true
   item_text_post: true
   item_text_total: false
-
-codeblock:
-  # Manual define the border radius in codeblock
-  # Leave it empty for the default 1
-  border_radius:
-  # Add copy button on codeblock
-  copy_button:
-    enable: true
-    # Show text copy result
-    show_result: true
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -367,11 +357,11 @@ codeblock:
   highlight_theme: normal
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
-    show_result: false
+    show_result: true
     # Available values: default | flat | mac
-    style:
+    style: mac
 
 back2top:
   enable: true
@@ -461,10 +451,6 @@ font:
 # SEO Settings
 # ---------------------------------------------------------------
 
-# Math Equations Render Support
-math:
-  enable: true
-
 # Disable Baidu transformation on mobile devices.
 disable_baidu_transformation: false
 
@@ -514,7 +500,7 @@ math:
 
   # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.
   mathjax:
-    enable: false
+    enable: true
     # See: https://mhchem.github.io/MathJax-mhchem/
     mhchem: false
 
